@@ -1,5 +1,5 @@
 const listaDeAmigos = [];
-let nombresMaximos = 7
+
 function agregarAmigo() {
     const inputName = document.getElementById("amigo");
     const nuevoAmigo = inputName.value.trim();
@@ -69,8 +69,5 @@ function sortearAmigo() {
 
     //agregar elementos a la lista.
     list.appendChild(listItem);
-
-    //Deshabilitar el botón de sorteo luego de usarlo. Necesario el recargar pag.
-    document.querySelector('#desactivar').setAttribute('disabled','true');
 }
 
